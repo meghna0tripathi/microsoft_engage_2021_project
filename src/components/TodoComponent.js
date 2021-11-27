@@ -166,14 +166,7 @@ function TodoComponent({ currentUser }) {
                 </button>
               </div>
             </div>
-            <div
-              className="w-full mt-4 md:mt-0 border-2 border-grey-900 py-2 px-4 flex flex-col"
-              onDragOver={(e) => onDragOver(e)}
-              onDrop={(e) => onDrop(e, "done")}
-            >
-              <div className="text-lg font-semibold mb-4">Done!</div>
-              {tempTask.done}
-            </div>
+           
           </div>
         </div>
       </div>

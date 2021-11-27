@@ -68,13 +68,13 @@ function LoginForm() {
 
   return (
     <div className="parent-login-container flex flex-col h-screen w-screen justify-center items-center">
-      <div className="w-screen h-screen bg-white opacity-70 absolute z=0"></div>
-      <div className="bg-white rounded-xl border-2 border-black p-8 flex flex-col z-10">
-        <p className="font-bold text-4xl text-center mb-2">Classroom</p>
-        <p className="text-md text-center mb-4">Please login to continue.</p>
+      <div className="w-screen h-screen bg-white opacity-10 absolute z=0"></div>
+      <div className="bg-coral rounded-xl border-2 border-white p-8 flex flex-col z-10">
+        <p className="font-bold text-4xl text-center mb-2">STUDY EASY</p>
+        <p className="text-2xl text-center mb-4">Welcome dear learner</p>
         <button
           onClick={loginWithGoogle}
-          className="flex flex-row max-w-max border border-black rounded rounded-full justify-start items-center mt-6 focus:outline-none"
+          className="flex flex-row max-w-max border bg-white border-black rounded rounded-full justify-start items-center mt-6 focus:outline-none"
         >
           <img
             className="m-1 max-w-max"

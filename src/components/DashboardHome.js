@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import { FaRegTrashAlt } from "react-icons/fa";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import AttendanceChart from "../components/AttendanceChart";

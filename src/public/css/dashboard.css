@@ -1,12 +1,7 @@
-@layer utilities {
-  @variants responsive {
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
-    }
-
-    .no-scrollbar {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-  }
+.dashboard-wall-container {
+  background: url("../images/online-classes-.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+
